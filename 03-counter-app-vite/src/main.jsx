@@ -8,5 +8,6 @@ import './styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <CounterApp value={1}/>
+        {/*<FirstApp title="Hola, soy Krillin"/>*/}
     </React.StrictMode>
 )

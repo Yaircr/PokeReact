@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 export const FirstApp = ( {title, subTitle, number} ) =>{
     return(
         <>
-            <h1>{title}</h1>
-            <p>{subTitle} {number +1}</p>
+            <h1 data-testid="test-title">{title}</h1>
+            <p>{subTitle}</p> 
+            <p>{number +1}</p>
         </>
     )
 }
 FirstApp.defaultProps = {
-    title: "No hay titulo",
     subTitle: "No hay subtitulo",
     number: 0
 }
